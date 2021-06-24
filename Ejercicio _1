@@ -1,0 +1,15 @@
+% Ti­tulo: Derivadas y Demostraciones
+% Autor: Alexia Michell Blas Hernandez (alexiabh10) michhernandez1001@gmail.com
+% Fecha: 20210623
+% Grupo: 3201
+% Correo: michhernandez1001@gmail.com
+% Materia: Calculo Integral
+
+clear
+clc 
+syms x;
+f=(x^2);
+g= ( 4 * x);
+Suma= diff(f) + diff(g)
+Multiplicacion= diff(x^2 * 4 * x)
+Division= diff( f / g)
